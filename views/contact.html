@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-header__nav">
+        <ul class="main-header__item-list">
+          <li class="main-header__item"><a href="/">Shop</a></li>
+          <li class="main-header__item">
+            <a  href="/admin/add-product">Add Product</a>
+          </li>
+          <li class="active"><a href="/contactus">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Book a call</h2>
+      <form class="contact-form" action="/success" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+    </br>
+        <button type="submit">Get a Call</button>
+      </form>
+    </main>
+  </body>
+</html>
